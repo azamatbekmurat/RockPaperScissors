@@ -1,0 +1,15 @@
+.winner {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+  color: blue;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  margin-top: 30px;
+}

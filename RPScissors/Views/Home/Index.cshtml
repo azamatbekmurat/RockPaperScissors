@@ -1,18 +1,26 @@
-<h1>Rock, Pape, Scissors</h1>
-<h4>Please choose one of the values in order to determine the winner</h4>
-<form action="game" method="post">
-  <label for="playerOne">Player 1 choice:</label>
-    <select class="playerOne" id="playerOne" name="playerOne">
-      <option>Rock</option>
-      <option>Paper</option>
-      <option>Scissors</option>
-    </select>
+@{
+  Layout = "_Layout";
+}
 
-  <label for="playerTwo">Player 2 choice:</label>
-    <select class="playerTwo" id="playerTwo" name="playerTwo">
-      <option>Rock</option>
-      <option>Paper</option>
-      <option>Scissors</option>
-    </select>
-  <button id="submit" class="btn btn-primary btn-lg" type="submit">Who wins?!</button>
-</form>
+<div class="container">
+  @* <h1>Rock, Pape, Scissors</h1> *@
+  <h4>Each player should choose one of the values in order to determine the winner</h4>
+  <form action="game" method="post">
+    <label for="playerOne">Player 1 choice:</label>
+      <select class="playerOne" id="playerOne" name="playerOne">
+        <option>Rock</option>
+        <option>Paper</option>
+        <option>Scissors</option>
+      </select>
+
+    <label for="playerTwo">Player 2 choice:</label>
+      <select class="playerTwo" id="playerTwo" name="playerTwo">
+        <option>Rock</option>
+        <option>Paper</option>
+        <option>Scissors</option>
+      </select>
+    <br>
+    <button id="submit" class="btn btn-primary btn-lg" type="submit">Who wins?!</button>
+  </form>
+
+</div>

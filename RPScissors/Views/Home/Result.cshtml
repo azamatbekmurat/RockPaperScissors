@@ -1,10 +1,12 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="container">
+
 <h2>Result of the game:</h2>
 
-
-  <h4>Winner is:
-    <p>@Model</p>
-    @* @foreach (var item in @Model) {
-      <li>@item</li>
-    } *@
-  </h4>
-  <p><a href="/">Back to home.</a></p>
+  <h4>Winner is:</h4>
+    <p><span class="winner">@Model</span></p>
+  <p><a href="/">Back to homepage.</a></p>
+</div>
