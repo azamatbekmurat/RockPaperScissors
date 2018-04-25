@@ -28,11 +28,11 @@ namespace TheGame.Models
     public string WhoWins()
     {
       string result = "";
-      if ((_playerOneChoice=="rock" && _playerTwoChoice=="scissors") || (_playerOneChoice=="paper" && _playerTwoChoice=="rock") || (_playerOneChoice=="scissors" && _playerTwoChoice=="paper"))
+      if ((_playerOneChoice=="Rock" && _playerTwoChoice=="Scissors") || (_playerOneChoice=="Paper" && _playerTwoChoice=="Rock") || (_playerOneChoice=="Scissors" && _playerTwoChoice=="Paper"))
       {
         result = "Player One wins";
       }
-      else if ((_playerTwoChoice=="rock" && _playerOneChoice=="scissors") || (_playerTwoChoice=="paper" && _playerOneChoice=="rock") || (_playerTwoChoice=="scissors" && _playerOneChoice=="paper"))
+      else if ((_playerTwoChoice=="Rock" && _playerOneChoice=="Scissors") || (_playerTwoChoice=="Paper" && _playerOneChoice=="Rock") || (_playerTwoChoice=="Scissors" && _playerOneChoice=="Paper"))
       {
         result = "Player Two wins";
       }

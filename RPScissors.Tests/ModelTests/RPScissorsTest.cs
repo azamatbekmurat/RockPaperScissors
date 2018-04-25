@@ -11,7 +11,7 @@ namespace TheGame.Tests
     [TestMethod]
     public void WhoWins_Values_RockVsScissors()
     {
-      RPScissorsGame inputValues = new RPScissorsGame("rock", "scissors");
+      RPScissorsGame inputValues = new RPScissorsGame("Rock", "Scissors");
       string winner = inputValues.WhoWins();
       Console.WriteLine(winner);
 
@@ -21,7 +21,7 @@ namespace TheGame.Tests
     [TestMethod]
     public void WhoWins_Values_RockVsPaper()
     {
-      RPScissorsGame inputValues = new RPScissorsGame("rock", "paper");
+      RPScissorsGame inputValues = new RPScissorsGame("Rock", "Paper");
       string winner = inputValues.WhoWins();
       Console.WriteLine(winner);
 
@@ -31,7 +31,7 @@ namespace TheGame.Tests
     [TestMethod]
     public void WhoWins_the_Same_Values_()
     {
-      RPScissorsGame inputValues = new RPScissorsGame("scissors", "scissors");
+      RPScissorsGame inputValues = new RPScissorsGame("Scissors", "Scissors");
       string winner = inputValues.WhoWins();
       Console.WriteLine(winner);
 
